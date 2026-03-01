@@ -87,7 +87,7 @@ export default function Footer() {
                       href="https://vipinfolio.vercel.app/"
                       className="text-sm text-white/50 hover:text-white transition-colors"
                     >
-                      Vipin
+                      Vipin & Umar
                     </a>
                   </div>
                 </div>
