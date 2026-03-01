@@ -161,7 +161,7 @@ export default function Testimonials() {
             className="mt-16 lg:mt-20 grid grid-cols-2 md:grid-cols-4 gap-6 lg:gap-8"
           >
             {[
-              { value: '50+', label: 'Projects Delivered' },
+              { value: '10+', label: 'Projects Delivered' },
               { value: '98%', label: 'Client Satisfaction' },
               { value: '1.5+', label: 'Years Experience' },
               { value: '24/7', label: 'Support Available' },
