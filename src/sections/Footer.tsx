@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ArrowUpRight, Linkedin, Twitter, Github, Instagram } from 'lucide-react';
+import { Linkedin, Twitter, Github, Instagram } from 'lucide-react';
 
 const footerLinks = {
   services: [
@@ -96,7 +96,7 @@ export default function Footer() {
                         Vipin
                       </a>
                       <span className="text-sm text-white/30">&amp;</span>
-                      <a 
+                      <a
                         href="#"
                         className="text-sm text-white/50 hover:text-white transition-colors"
                       >
@@ -214,16 +214,6 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Back to Top Button */}
-      <motion.button
-        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-        className="absolute bottom-6 right-6 w-12 h-12 rounded-full bg-steel-blue hover:bg-arctic-slate flex items-center justify-center transition-colors duration-300 shadow-lg"
-        whileHover={{ scale: 1.05 }}
-        whileTap={{ scale: 0.95 }}
-        aria-label="Back to top"
-      >
-        <ArrowUpRight className="w-5 h-5" />
-      </motion.button>
     </footer>
   );
 }
