@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { 
-  Mail, 
-  Phone, 
-  MapPin, 
-  Send, 
+import {
+  Mail,
+  Phone,
+  MapPin,
+  Send,
   MessageCircle,
   Clock,
   CheckCircle
@@ -80,8 +80,8 @@ export function Contact() {
                     </div>
                     <div className="min-w-0">
                       <h4 className="font-display font-semibold text-white mb-0.5 md:mb-1 text-sm md:text-base">Email</h4>
-                      <a 
-                        href="mailto:hello@uprigt.com" 
+                      <a
+                        href="mailto:hello@uprigt.com"
                         className="text-gray-400 hover:text-purple-400 transition-colors text-sm md:text-base truncate block"
                       >
                         hello@uprigt.com
@@ -97,11 +97,11 @@ export function Contact() {
                     </div>
                     <div>
                       <h4 className="font-display font-semibold text-white mb-0.5 md:mb-1 text-sm md:text-base">Phone</h4>
-                      <a 
-                        href="tel:+919876543210" 
+                      <a
+                        href="tel:+919629862425"
                         className="text-gray-400 hover:text-purple-400 transition-colors text-sm md:text-base"
                       >
-                        +91 98765 43210
+                        +91 96298 62425
                       </a>
                     </div>
                   </div>
@@ -115,7 +115,7 @@ export function Contact() {
                     <div>
                       <h4 className="font-display font-semibold text-white mb-0.5 md:mb-1 text-sm md:text-base">Location</h4>
                       <p className="text-gray-400 text-sm md:text-base">
-                        Mumbai, India<br />
+                        Remote<br />
                         <span className="text-xs md:text-sm">Serving clients worldwide</span>
                       </p>
                     </div>
@@ -138,12 +138,12 @@ export function Contact() {
                     </p>
                   </div>
                 </div>
-                <a 
-                  href="https://wa.me/919876543210" 
-                  target="_blank" 
+                <a
+                  href="https://wa.me/919629862425"
+                  target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Button 
+                  <Button
                     className="w-full mt-3 md:mt-4 bg-green-600 hover:bg-green-500 text-white text-sm md:text-base py-4 md:py-5"
                   >
                     <MessageCircle className="w-4 h-4 mr-2" />
