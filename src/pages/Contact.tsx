@@ -81,10 +81,10 @@ export function Contact() {
                     <div className="min-w-0">
                       <h4 className="font-display font-semibold text-white mb-0.5 md:mb-1 text-sm md:text-base">Email</h4>
                       <a
-                        href="mailto:hello@uprigt.com"
+                        href="mailto:uprigt.tech@gmail.com"
                         className="text-gray-400 hover:text-purple-400 transition-colors text-sm md:text-base truncate block"
                       >
-                        hello@uprigt.com
+                        uprigt.tech@gmail.com
                       </a>
                     </div>
                   </div>
