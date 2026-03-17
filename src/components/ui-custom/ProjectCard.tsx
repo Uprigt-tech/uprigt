@@ -11,7 +11,10 @@ interface ProjectCardProps {
 
 export function ProjectCard({ project, index = 0, featured = false }: ProjectCardProps) {
   return (
-    <motion.div
+    <motion.a
+      href={project.link}
+      target="_blank"
+      rel="noopener noreferrer"
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: '-50px' }}
@@ -21,7 +24,7 @@ export function ProjectCard({ project, index = 0, featured = false }: ProjectCar
         ease: [0.16, 1, 0.3, 1]
       }}
       whileHover={{ y: -5 }}
-      className={`group relative overflow-hidden rounded-xl md:rounded-2xl glass ${
+      className={`group relative overflow-hidden rounded-xl md:rounded-2xl glass block ${
         featured ? 'col-span-1' : ''
       }`}
     >
@@ -84,6 +87,6 @@ export function ProjectCard({ project, index = 0, featured = false }: ProjectCar
       <div className="absolute inset-0 rounded-xl md:rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none">
         <div className="absolute inset-0 rounded-xl md:rounded-2xl shadow-glow" />
       </div>
-    </motion.div>
+    </motion.a>
   );
 }
